@@ -39,7 +39,7 @@ def qram(data: List) -> QuantumCircuit:
 
 def oracle_c(num_data: int) -> QuantumCircuit:
     """Oracle for assignment 3 Q1 (c).
-    This oracle is used for finding if the data == 5, not the index.
+    This oracle is used for determining if the data == 5, not the index.
 
     Args:
         num_data: Number of qubits in data register.

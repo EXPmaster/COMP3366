@@ -2,7 +2,8 @@ from qiskit import QuantumCircuit, QuantumRegister
 
 
 def oracle1() -> QuantumCircuit:
-    """Oracle 1 for assignment 3 Q1 (a)
+    """Oracle 1 for assignment 3 Q1 (a).
+    1 solution of 8 items.
 
     Returns:
         Oracle circuit.
@@ -18,7 +19,8 @@ def oracle1() -> QuantumCircuit:
 
 
 def oracle2() -> QuantumCircuit:
-    """Oracle 2 for assignment 3 Q1 (a)
+    """Oracle 2 for assignment 3 Q1 (b)
+    2 solutions of 8 items.
 
     Returns:
         Oracle circuit.
