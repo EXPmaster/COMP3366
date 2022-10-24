@@ -9,6 +9,9 @@ def qram(data: List) -> QuantumCircuit:
     where the |x> is the address (index) and |D(x)> is the data in the corresponding address,
     e,g, if the list is [3, 5, 1], then the state is (|0>|3> + |1>|5> + |2>|1>) / sqrt(3).
 
+    Note: this function will note construct the superposition of address register,
+    remember to apply H gates by yourself.
+
     Args:
         data: The Python List object of the data you want to search.
 
